@@ -40,7 +40,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
-    'evacuate_linebot'
+    'evacuate_linebot',
+    'test_polls'
 ]
 
 MIDDLEWARE = [

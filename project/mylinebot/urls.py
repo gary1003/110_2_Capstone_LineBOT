@@ -20,4 +20,5 @@ from evacuate_linebot import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('callback', views.callback),
+    path('polls/', include('test_polls.urls')),
 ]
