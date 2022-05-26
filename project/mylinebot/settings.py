@@ -75,12 +75,17 @@ TEMPLATES = [
 WSGI_APPLICATION = 'mylinebot.wsgi.application'
 
 
+## Specify the path to use spatialite
+GDAL_LIBRARY_PATH = 'C:/OSGeo4W/bin/gdal303.dll'
+GEOS_LIBRARY_PATH = 'C:/OSGeo4W/bin/geos_c.dll'
+SPATIALITE_LIBRARY_PATH = 'C:/OSGeo4W/bin/mod_spatialite.dll'
+
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
+        'ENGINE': 'django.contrib.gis.db.backends.spatialite',
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }

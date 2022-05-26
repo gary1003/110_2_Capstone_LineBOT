@@ -5,6 +5,11 @@
 - go [here](https://developers.line.biz/zh-hant/) and follow the instruction
 - Create a Messaging API Channel
 
+## Push Message
+
+- see `push.py`
+- useage: `python push.py [message]`
+
 ## Use DJANGO
 
 ### install
