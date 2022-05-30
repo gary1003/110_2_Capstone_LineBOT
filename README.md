@@ -1,5 +1,5 @@
 # LineBOT for Evacuate Information
-
+`http://dl.stickershop.LINE.naver.jp/products/0/0/1/19156747/iphone/stickers@2x.zip`
 ## Create Line Provider
 
 - go [here](https://developers.line.biz/zh-hant/) and follow the instruction
